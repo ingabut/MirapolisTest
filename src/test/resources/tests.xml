@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mirapolis Tests">
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.login.ValidLoginTests"> </class>
+            <class name="tests.login.InvalidLoginTests"></class>
+            <class name="tests.login.PasswordRecoverTests"></class>
+        </classes>
+    </test> <!-- configuration annotation Test -->
+</suite> <!-- Test Automation University Suite -->
